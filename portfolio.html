@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishwajit More | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #764ba2;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .about p {
+      font-size: 1.1rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .skill-box {
+      background: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-weight: 600;
+      color: #555;
+      transition: transform 0.3s;
+    }
+    .skill-box:hover {
+      transform: translateY(-5px);
+      background: #f7f2ff;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      background: #764ba2;
+      color: white;
+      padding: 12px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #5b3b8c;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vishwajit More</h1>
+  <p>1st Year Engineering Student | Web Enthusiast</p>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    Hi! I'm Vishwajit More, a first-year engineering student passionate about technology and coding. I'm currently learning web development and programming fundamentals, and I enjoy exploring how websites and software are built from scratch.
+  </p>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill-box">HTML</div>
+    <div class="skill-box">CSS</div>
+    <div class="skill-box">Python (Basics)</div>
+    <div class="skill-box">C++(Basics)</div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; Vishwajit More. All rights reserved.
+</footer>
+
+</body>
+</html>
