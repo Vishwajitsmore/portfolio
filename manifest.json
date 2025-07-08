@@ -1,21 +1,11 @@
 {
-  "name": "Vishwajit-Portfolio",
-  "short_name": "Portfolio",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
-  "orientation": "portrait",
-  "icons": [
-    {
-      "src": ""E:\Tantrata\Photo.JPG"",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": ""E:\Tantrata\Photo.JPG"",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+"name": "Vishwajit Portfolio",
+"short_name": "Portfolio",
+"start_url": "/index.html",
+"icons":[],
+"theme_color": "#000000",
+"background_color": "#FFFFFF",
+"display": "fullscreen",
+"orientation": "portrait"
+}
 }
